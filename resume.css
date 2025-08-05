@@ -211,17 +211,52 @@ body.light-mode footer {
   color: white;
 }
 
-/* Dark Mode */
+/* Enhanced Dark Mode */
 body.dark-mode {
   background-color: #121212;
-  color: #f0f0f0;
+  color: #e0e0e0;
+  --primary-accent: #4dd0e1;
+  --secondary-accent: #80cbc4;
+  --text-primary: #e0e0e0;
+  --text-secondary: #b0b0b0;
+  --card-bg: #1e1e1e;
+  --header-footer-bg: #1a1a1a;
+  --border-color: #333;
 }
 
-body.dark-mode a {
-  color: #80cbc4;
+body.dark-mode section h1,
+body.dark-mode section h2,
+body.dark-mode section h3,
+body.dark-mode section h4 {
+  color: var(--primary-accent);
+}
+
+body.dark-mode section p,
+body.dark-mode section ul {
+  color: var(--text-secondary);
+}
+
+body.dark-mode .download-btn {
+  background-color: var(--primary-accent);
+  color: #121212;
+}
+
+body.dark-mode .download-btn:hover {
+  background-color: #26c6da;
+  color: #121212;
 }
 
 body.dark-mode header,
 body.dark-mode footer {
-  background-color: #1e1e1e;
+  background-color: var(--header-footer-bg);
+}
+
+body.dark-mode .nav-links a:hover,
+body.dark-mode .nav-links a.active {
+  background-color: var(--primary-accent);
+  color: #121212;
+}
+
+body.dark-mode .social-links a:hover {
+  color: var(--primary-accent);
 }

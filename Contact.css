@@ -202,17 +202,65 @@ body.light-mode footer {
   color: white;
 }
 
-/* Dark Mode */
+/* Update the existing dark mode section in Contact.css */
 body.dark-mode {
   background-color: #121212;
-  color: #f0f0f0;
+  color: #e0e0e0;
+  --primary-accent: #4dd0e1;
+  --secondary-accent: #80cbc4;
+  --text-primary: #e0e0e0;
+  --text-secondary: #b0b0b0;
+  --card-bg: #1e1e1e;
+  --header-footer-bg: #1a1a1a;
+  --border-color: #333;
 }
 
-body.dark-mode a {
-  color: #80cbc4;
+body.dark-mode .contact-header h1 {
+  color: var(--primary-accent);
+}
+
+body.dark-mode .contact-header p {
+  color: var(--text-secondary);
+}
+
+body.dark-mode .contact-card {
+  background-color: var(--card-bg);
+  color: var(--text-primary);
+}
+
+body.dark-mode .contact-card h3 {
+  color: var(--primary-accent);
+}
+
+body.dark-mode .contact-card p {
+  color: var(--text-secondary);
+}
+
+body.dark-mode .contact-card i {
+  color: var(--primary-accent);
+}
+
+body.dark-mode .contact-btn {
+  background-color: var(--primary-accent);
+  color: #121212;
+}
+
+body.dark-mode .contact-btn:hover {
+  background-color: #26c6da;
+  color: #121212;
 }
 
 body.dark-mode header,
 body.dark-mode footer {
-  background-color: #1e1e1e;
+  background-color: var(--header-footer-bg);
+}
+
+body.dark-mode .nav-links a:hover,
+body.dark-mode .nav-links a.active {
+  background-color: var(--primary-accent);
+  color: #121212;
+}
+
+body.dark-mode .social-links a:hover {
+  color: var(--primary-accent);
 }
