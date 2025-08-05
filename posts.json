@@ -2,16 +2,14 @@
   {
     "title": "How I Implemented Light/Dark Mode",
     "date": "2025-08-03",
-    "content": "To add light/dark mode, I created a toggle button that switches a class on the body. I also saved the user's preference in localStorage so it remembers their choice."
+    "content": "To add light/dark mode, I created a toggle button that switches a class on the body. I then created the js code and updated it, beofre adding all the required tags in the correct places"
   },
   {
     "title": "Building a Dynamic Blog with JavaScript",
     "date": "2025-08-04",
-    "content": "I used JavaScript's fetch() to load blog posts from a JSON file and inject them into the DOM. This saves time compared to hardcoding each post in HTML."
+    "content": "I used JavaScript's fetch API feauture to load blog posts from a JSON file and inject them into the DOM. I then wrote all the code and added the right tags in the right places."
   },
   {
-    "title": "What I Learned from Assignment 2",
-    "date": "2025-08-05",
-    "content": "This assignment helped me understand DOM manipulation, JSON, and how to make websites dynamic using JavaScript. I now feel more confident creating interactive web pages!"
-  }
+
+
 ]
