@@ -1,59 +1,75 @@
-<!-- Projects I have built -->
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My Resume</title>
-        <link rel="stylesheet" href="projects.css">
-    </head>
-    <body>
- <button id="theme-toggle">Switch to Dark Mode</button>
+<html lang="en">
+<head>
+    <!-- DOCUMENT METADATA -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects I Have Built</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
 
-<!--
- <header>
-  <nav>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Me</a></li>
-      <li><a href="resume.html">My Resume</a></li>
-      <li><a href="projects.html" class="active">Projects I Have Built</a></li>
-      <li><a href="contact.html">Contact Info</a></li>
-      <li><a href="blog page.html">Blog</a></li>
-    </ul>
-  </nav>
-</header>
--->
-<div id="header"></div>
-  
-  <main class="projects-container">
-    <h1>Projects I Have Built</h1>
+<body>
 
-    <section class="project-item">
-      <h2>📈 Stock Market Predictor</h2>
-      <p>This project uses LSTM neural networks in Python to predict future stock prices based on historical data. It was built using libraries like TensorFlow and matplotlib.</p>
-      <a href="https://github.com/tabish-2002/Stock-market-predictor" target="_blank" class="project-link">
-        View Project on GitHub →
-      </a>
-    </section>
-  </main>
+    <button id="theme-toggle">Switch to Dark Mode</button> 
 
-      <script src="toggle_mode.js"></script>
-    <!-- 
+    <!-- MAIN NAVIGATION -->
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="resume.html">My Resume</a></li>
+                <li><a href="projects.html" class="active">Projects I Have Built</a></li> <!-- Current page indicator -->
+                <li><a href="contact.html">Contact Info</a></li>
+                <li><a href="blog page.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT CONTAINER -->
+    <main class="projects-container">
+        <h1>Projects I Have Built</h1>
+
+        <!-- PROJECT ITEM SECTION -->
+        <section class="project-item">
+            <h2>Stock Market Predictor</h2>
+            <p>This project uses LSTM neural networks in Python to predict future stock prices based on historical data. It was built using libraries like TensorFlow and matplotlib.</p>
+            
+            <!-- GITHUB PROJECT LINK -->
+            <a href="https://github.com/tabish-2002/Stock-market-predictor" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="project-link">
+                View Project on GitHub →
+            </a>
+        </section>
+    </main>
+
+    <!-- PAGE FOOTER -->
     <footer>
         <div class="footer-content">
             <p>&copy; 2025 Syed Tabish Rahman. All rights reserved.</p>
             <div class="social-links">
-                <a href="https://www.linkedin.com/in/syed-tabish-rahman-a71a35228/" target="_blank" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/syed-tabish-rahman-a71a35228/" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   aria-label="LinkedIn Profile">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <a href="https://github.com/tabish-2002" target="_blank" aria-label="GitHub">
+                <a href="https://github.com/tabish-2002" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   aria-label="GitHub Profile">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="mailto:tabishrahman2002@gmail.com" aria-label="Email">
+                <a href="mailto:tabishrahman2002@gmail.com" 
+                   aria-label="Email Me">
                     <i class="fas fa-envelope"></i>
                 </a>
             </div>
         </div>
     </footer>
-     -->
+    <<script src="toggle_mode.js"></script>
+
 </body>
 </html>

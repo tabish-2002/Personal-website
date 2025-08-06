@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>About Page</title>
+        <title>About Page Me</title>
+        <!-- Link to external CSS file -->
         <link rel="stylesheet" href="about.css">
     </head>
-<!--
+
+    <!-- Header section with navigation -->
     <header>
-  <nav>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html"class="active">About Me</a></li>
-      <li><a href="resume.html">My Resume</a></li>
-      <li><a href="projects.html" >Projects I Have Built</a></li>
-      <li><a href="contact.html">Contact Info</a></li>
-      <li><a href="blog page.html" >Blog</a></li>
-    </ul>
-  </nav>
-</header>
--->
+        <nav>
+            <!-- Main navigation links -->
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Me</a></li> <!-- Current active page -->
+                <li><a href="resume.html">My Resume</a></li>
+                <li><a href="projects.html">Projects I Have Built</a></li>
+                <li><a href="contact.html">Contact Info</a></li>
+                <li><a href="blog page.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
 <button id="theme-toggle">Switch to Dark Mode</button>
 
-<div id="header"></div>
+    <div id="header"></div>
 
+    <!-- Main content container -->
     <main class="about-container">
+        <!-- Hero section with profile image and introduction -->
         <section class="about-hero">
             <div class="about-image">
                 <img src="WhatsApp Image 2025-04-19 at 19.04.07_97e84d22.jpg" alt="Syed Tabish Rahman" class="profile-photo">
@@ -31,6 +36,7 @@
                 <h1>Syed Tabish Rahman</h1>
                 <h2>IT Student & Aspiring Developer</h2>
                 <p class="tagline">Creating software solutions with a emphasis on UI and clean code</p>
+                <!-- Social media links -->
                 <div class="about-social">
                     <a href="https://www.linkedin.com/in/syed-tabish-rahman-a71a35228/" target="_blank" aria-label="LinkedIn">
                         <i class="fab fa-linkedin"></i>
@@ -45,13 +51,16 @@
             </div>
         </section>
 
+        <!-- Main content sections -->
         <section class="about-content">
+            <!-- My journey section -->
             <div class="about-section">
                 <h3>My Journey</h3>
                 <p>My passion for technology began unexpectedly during a high school computer class that I initially struggled with. Through persistence and curiosity, I discovered a love for problem-solving through code that led me to pursue a Bachelor's in Information Technology at York University (expected graduation December 2025).</p>
                 <p>My internship at KnowQuest Inc. as a UI/UX Frontend Software Development Intern solidified my passion for creating intuitive digital experiences. There I developed features using React.js, Node.js, and implemented designs from Figma mockups.</p>
             </div>
 
+            <!-- Technical skills section with grid layout -->
             <div class="about-section">
                 <h3>Technical Skills</h3>
                 <div class="skills-grid">
@@ -85,6 +94,7 @@
                 </div>
             </div>
 
+            <!-- Education section -->
             <div class="about-section">
                 <h3>Education</h3>
                 <div class="education-item">
@@ -95,6 +105,7 @@
                 </div>
             </div>
 
+            <!-- Personal interests section -->
             <div class="about-section">
                 <h3>Beyond Coding</h3>
                 <div class="interests-grid">
@@ -120,10 +131,13 @@
                     </div>
                 </div>
             </div>
-
+        </section>
     </main>
+    
+    <!-- Theme toggle script-->
     <script src="toggle_mode.js"></script>
-    <!-- 
+    
+    <!-- The main footer section -->
     <footer>
         <div class="footer-content">
             <p>&copy; 2025 Syed Tabish Rahman. All rights reserved.</p>
@@ -140,6 +154,6 @@
             </div>
         </div>
     </footer>
-    -->
+
 </body>
 </html>

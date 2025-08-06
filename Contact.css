@@ -1,10 +1,15 @@
+/* ===============================
+   Global reset
+   =============================== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body */
+/* ===============================
+   Body style
+   =============================== */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f9f9f9;
@@ -12,7 +17,9 @@ body {
   line-height: 1.6;
 }
 
-/* ===== NAVIGATION ===== */
+/* ===============================
+   Navigation
+   =============================== */
 header {
   background-color: #2c3e50;
   padding: 1rem 0;
@@ -45,7 +52,9 @@ header {
   transform: translateY(-2px);
 }
 
-/* ===== MAIN CONTENT ===== */
+/* ===============================
+   Main content
+   =============================== */
 .contact-container {
   max-width: 900px;
   margin: 3rem auto;
@@ -53,6 +62,9 @@ header {
   text-align: center;
 }
 
+/* ===============================
+   Contact
+   =============================== */
 .contact-header h1 {
   font-size: 2.5rem;
   color: #2c3e50;
@@ -65,7 +77,9 @@ header {
   margin-bottom: 2.5rem;
 }
 
-/* Contact cards container */
+/* ===============================
+   Contact grid
+   =============================== */
 .contact-methods {
   display: flex;
   justify-content: center;
@@ -73,7 +87,9 @@ header {
   flex-wrap: wrap;
 }
 
-/* Individual contact card */
+/* ===============================
+   Individual contact
+   =============================== */
 .contact-card {
   background-color: white;
   flex: 1 1 280px;
@@ -105,7 +121,9 @@ header {
   font-size: 1rem;
 }
 
-/* Buttons */
+/* ===============================
+   Contact button
+   =============================== */
 .contact-btn {
   display: inline-block;
   padding: 10px 22px;
@@ -120,12 +138,14 @@ header {
 }
 
 .contact-btn:hover {
-  background-color: #0288a9;
-  box-shadow: 0 6px 20px rgba(2, 136, 169, 0.5);
+  background-color: #0097a7;
+  box-shadow: 0 6px 20px rgba(0, 151, 167, 0.5);
   color: white;
 }
 
-/* ===== FOOTER ===== */
+/* ===============================
+   Footer
+   =============================== */
 footer {
   background-color: #2c3e50;
   padding: 2rem 0;
@@ -158,25 +178,30 @@ footer {
   transform: translateY(-3px);
 }
 
-/* ===== RESPONSIVE ===== */
+/* ===============================
+   Responsive
+   =============================== */
 @media (max-width: 768px) {
   .contact-methods {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .contact-card {
     width: 100%;
     max-width: 400px;
   }
 }
-/* Theme Toggle Button Style */
+
+/* ===============================
+   Theme buttom
+   =============================== */
 #theme-toggle {
   position: fixed;
   top: 1rem;
   right: 1rem;
   padding: 0.5rem 1rem;
-  background-color: #3498db;
+  background-color: #00bcd4;
   color: white;
   border: none;
   border-radius: 5px;
@@ -187,10 +212,12 @@ footer {
 }
 
 #theme-toggle:hover {
-  background-color: #2980b9;
+  background-color: #0097a7;
 }
 
-/* Light Mode (default) */
+/* ===============================
+   Light mode
+   =============================== */
 body.light-mode {
   background-color: #f9f9f9;
   color: #333;
@@ -202,7 +229,9 @@ body.light-mode footer {
   color: white;
 }
 
-/* Update the existing dark mode section in Contact.css */
+/* ===============================
+   Dark mode
+   =============================== */
 body.dark-mode {
   background-color: #121212;
   color: #e0e0e0;

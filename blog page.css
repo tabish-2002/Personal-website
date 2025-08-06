@@ -1,10 +1,15 @@
-/* ===== blog page ===== */
+/* ===============================
+   Global reset
+   =============================== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* ===============================
+   Body styling
+   =============================== */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f9f9f9;
@@ -12,7 +17,9 @@ body {
   line-height: 1.6;
 }
 
-/* ===== NAVIGATION ===== */
+/* ===============================
+   Navigation
+   =============================== */
 header {
   background-color: #2c3e50;
   padding: 1rem 0;
@@ -44,11 +51,14 @@ header {
 
 .nav-links a:hover,
 .nav-links a.active {
-  background-color: #3498db;
+  background-color: #00bcd4;
+  color: #222;
   transform: translateY(-2px);
 }
 
-/* ===== BLOG CONTENT ===== */
+/* ===============================
+   Blog content section
+   =============================== */
 .blog-container {
   max-width: 1000px;
   margin: 2rem auto;
@@ -71,7 +81,9 @@ header {
   color: #555;
 }
 
-/* ===== FOOTER ===== */
+/* ===============================
+   Footer section
+   =============================== */
 footer {
   background-color: #2c3e50;
   color: white;
@@ -100,11 +112,13 @@ footer {
 }
 
 .social-links a:hover {
-  color: #3498db;
+  color: #00bcd4;
   transform: translateY(-3px);
 }
 
-/* ===== THEME TOGGLE ===== */
+/* ===============================
+   Theme buttom
+   =============================== */
 #theme-toggle {
   position: fixed;
   top: 1rem;
@@ -121,10 +135,12 @@ footer {
 }
 
 #theme-toggle:hover {
-  background-color: #2980b9;
+  background-color: #0097a7;
 }
 
-/* ===== DARK MODE ===== */
+/* ===============================
+   Dark mode theme
+   =============================== */
 body.dark-mode {
   background-color: #121212;
   color: #e0e0e0;
@@ -136,7 +152,7 @@ body.dark-mode footer {
 }
 
 body.dark-mode .blog-header h1 {
-  color: #80cbc4;
+  color: #4dd0e1;
 }
 
 body.dark-mode .blog-header p {
@@ -146,30 +162,33 @@ body.dark-mode .blog-header p {
 body.dark-mode .nav-links a:hover,
 body.dark-mode .nav-links a.active {
   background-color: #4dd0e1;
+  color: #121212;
 }
 
 body.dark-mode .social-links a:hover {
   color: #4dd0e1;
 }
 
-/* ===== RESPONSIVE ===== */
+/* ===============================
+   Responsive design
+   =============================== */
 @media (max-width: 768px) {
   .blog-container {
     padding: 0 1rem;
   }
-  
+
   .nav-links {
     gap: 0.5rem;
   }
-  
+
   .nav-links a {
     padding: 0.5rem;
   }
-  
+
   .blog-header h1 {
     font-size: 2.2rem;
   }
-  
+
   .blog-header p {
     font-size: 1.1rem;
   }

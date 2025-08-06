@@ -1,11 +1,15 @@
-/* Reset */
+/* ===============================
+   Global reset
+   =============================== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body base styling */
+/* ===============================
+   Body styling
+   =============================== */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f9f9f9;
@@ -13,9 +17,11 @@ body {
   line-height: 1.6;
 }
 
-/* ===== NAVIGATION ===== */
+/* ===============================
+   Navigation
+   =============================== */
 header {
-  background-color: #2c3e50;  /* Darker navy */
+  background-color: #2c3e50;  
   padding: 1rem 0;
   position: sticky;
   top: 0;
@@ -46,14 +52,15 @@ header {
   transform: translateY(-2px);
 }
 
-/* ===== ABOUT CONTAINER ===== */
+/* ===============================
+   About section styling
+   =============================== */
 .about-container {
   max-width: 1100px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
-/* ===== HERO SECTION ===== */
 .about-hero {
   display: flex;
   flex-wrap: wrap;
@@ -91,7 +98,9 @@ header {
   color: #555;
 }
 
-/* Social links in about section */
+/* ===============================
+   Social media links
+   =============================== */
 .about-social a {
   font-size: 1.8rem;
   margin-right: 1rem;
@@ -104,7 +113,9 @@ header {
   transform: translateY(-3px);
 }
 
-/* ===== CONTENT SECTIONS ===== */
+/* ===============================
+   GENERIC CONTENT SECTIONS
+   =============================== */
 .about-section {
   margin-bottom: 2.5rem;
 }
@@ -120,7 +131,9 @@ header {
   color: #444;
 }
 
-/* ===== SKILLS GRID ===== */
+/* ===============================
+   Skills grid
+   =============================== */
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
@@ -140,7 +153,9 @@ header {
   color: #555;
 }
 
-/* ===== EDUCATION ===== */
+/* ===============================
+   Education
+   =============================== */
 .education-item .degree {
   font-weight: 700;
   color: #222;
@@ -152,7 +167,9 @@ header {
   color: #555;
 }
 
-/* ===== INTERESTS GRID ===== */
+/* ===============================
+   Intrests
+   =============================== */
 .interests-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -180,7 +197,9 @@ header {
   margin-bottom: 0.7rem;
 }
 
-/* ===== FOOTER ===== */
+/* ===============================
+   Footer
+   =============================== */
 footer {
   background-color: #2c3e50;
   padding: 1.5rem 0;
@@ -206,13 +225,19 @@ footer .social-links a:hover {
   color: #00bcd4;
   transform: translateY(-3px);
 }
-/* ===== RESPONSIVE ===== */
+
+/* ===============================
+   Responsive design
+   =============================== */
 @media (max-width: 768px) {
   .projects-container {
     padding: 0 1rem;
   }
 }
-/* Theme Toggle Button Style */
+
+/* ===============================
+   Toggle
+   =============================== */
 #theme-toggle {
   position: fixed;
   top: 1rem;
@@ -232,6 +257,9 @@ footer .social-links a:hover {
   background-color: #2980b9;
 }
 
+/* ===============================
+   Light
+   =============================== */
 body.light-mode {
   background-color: #f9f9f9;
   color: #333;
@@ -243,7 +271,9 @@ body.light-mode footer {
   color: white;
 }
 
-/* Enhanced Dark Mode */
+/* ===============================
+   Dark
+   =============================== */
 body.dark-mode {
   background-color: #121212;
   color: #e0e0e0;

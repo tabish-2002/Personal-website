@@ -4,19 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tabish's Portfolio</title>
-  
   <link rel="stylesheet" href="index.css">
-</head>
-<body>
- <button id="theme-toggle">Switch to Dark Mode</button>
-  <!-- Navigation -->
-   
-  <div id="header"></div>
 
+</head>
+
+<body>
+  <!-- THEME TOGGLE BUTTON -->
+  <button id="theme-toggle" aria-label="Toggle dark mode">Switch to Dark Mode</button>
+
+  <!-- MAIN PAGE HEADER -->
   <header>
+    <!-- PRIMARY NAVIGATION -->
     <nav>
       <ul class="nav-links">
-        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="index.html" class="active">Home</a></li> <!-- Current page -->
         <li><a href="about.html">About me</a></li>
         <li><a href="resume.html">My Resume</a></li>
         <li><a href="projects.html">Projects I Have Built</a></li>
@@ -26,40 +27,63 @@
     </nav>
   </header>
 
+  <!-- MAIN CONTENT AREA -->
   <main class="home-container">
-    <section class="hero">
+     <section class="hero">
       <h1>Welcome to My Personal Website</h1>
-      <p>Hi, I'm Syed Tabish Rahman — an IT student at York University passionate about web development, UI/UX, and building impactful tech projects.</p>
+      <p>Hi, I'm Syed Tabish Rahman — an IT student at York University passionate about web development</p>
+      
+      <!--Takes you to my projects page -->
       <a href="projects.html" class="cta-button">See My Work</a>
     </section>
 
+    <!-- HIGHLIGHTS SECTION -->
     <section class="highlights">
+      <!-- "WHAT I DO" CONTENT BOX -->
       <div class="highlight">
         <h2>What I Do</h2>
-        <p>I build responsive, interactive web interfaces using HTML, CSS, JavaScript, and React. I also work with Figma to design user-friendly layouts.</p>
+        <p>I build responsive, interactive web interfaces using HTML, CSS, JavaScript, and React. I al
+          so work with Figma to design user-friendly layouts. In my free time, i'm also a Amateur MMA fighter and a 
+      avid consumer of Batman</p>
       </div>
 
-<img src="WhatsApp Image 2025-04-19 at 19.04.07_97e84d22.jpg" alt="Syed Tabish Rahman" class="profile-photo">
-      <script src="toggle_mode.js"></script>
-      
-  <div id="footer">
+      <!-- PROFILE PHOTO -->
+      <img src="WhatsApp Image 2025-04-19 at 19.04.07_97e84d22.jpg" 
+           alt="Syed Tabish Rahman" 
+           class="profile-photo">
+    </section>
+  </main>
 
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2025 Syed Tabish Rahman. All rights reserved.</p>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/syed-tabish-rahman-a71a35228/" target="_blank" aria-label="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/tabish-2002" target="_blank" aria-label="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="mailto:tabishrahman2002@gmail.com" aria-label="Email">
-                    <i class="fas fa-envelope"></i>
-                </a>
-            </div>
-        </div>
-    </footer>
+  <script src="toggle_mode.js"></script>
+
+  <!-- PAGE FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <!-- COPYRIGHT NOTICE -->
+      <p>&copy; 2025 Syed Tabish Rahman. All rights reserved.</p>
+      
+      <!-- SOCIAL MEDIA LINKS -->
+      <div class="social-links">
+
+        <a href="https://www.linkedin.com/in/syed-tabish-rahman-a71a35228/" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           aria-label="LinkedIn Profile">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/tabish-2002" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           aria-label="GitHub Profile">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:tabishrahman2002@gmail.com" 
+           aria-label="Email Me">
+            <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
